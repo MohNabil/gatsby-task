@@ -1,0 +1,36 @@
+.container {
+  width: 45%;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  box-shadow: 1px 1px lightgray;
+  @media screen and (max-width: 320px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 750px) {
+    width: 75%;
+  }
+  .innerContainer {
+    display: flex;
+    height: 300px;
+    padding: 10px;
+    .image {
+      width: 50%;
+      height: 100%;
+    }
+    .detailContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      .title {
+        font-size: 0.8em;
+        color: rgb(189, 187, 187);
+      }
+      .details {
+        font-size: 1.25em;
+      }
+    }
+  }
+}

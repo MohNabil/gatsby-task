@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid rgb(233, 232, 232);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  p {
+    color: rgb(150, 147, 147);
+  }
+  &:hover,
+  &:focus {
+    background: #8ac0f4;
+    p {
+      color: black;
+    }
+  }
+}

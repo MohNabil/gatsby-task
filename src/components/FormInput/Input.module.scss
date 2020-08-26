@@ -1,0 +1,28 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 800px;
+  .input,
+  .select {
+    width: 96%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+  }
+  .singleInput {
+    width: 98%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-right: 20px;
+  }
+  .textarea {
+    width: 98%;
+    height: 150px;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: scroll;
+  .mainContent {
+    overflow: scroll;
+    position: absolute;
+    // left: 200px;
+    top: 75px;
+    bottom: 75px;
+    width: 100%;
+    z-index: 1;
+  }
+}
